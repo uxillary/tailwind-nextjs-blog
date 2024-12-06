@@ -100,4 +100,17 @@ const siteMetadata = {
   },
 }
 
-module.exports = siteMetadata
+module.exports = {
+  title: 'Infinite Curios', 
+  author: 'The Infinite Curios Team', 
+  headerTitle: 'Infinite Curios', 
+  description: 'Dive into an endless collection of articles across all your favorite topics.', 
+  language: 'en-us', 
+  siteUrl: 'https://infinitecurios.com', 
+  email: 'contact@infinitecurios.com', 
+  github: 'https://github.com/infinitecurios', 
+  twitter: 'https://twitter.com/InfiniteCurios', 
+  linkedin: '', 
+};
+
+
