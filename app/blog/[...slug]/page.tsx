@@ -70,6 +70,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string[]
     },
   };
 }
+// fixed the error here when not displaying page on link click
 
 export const generateStaticParams = async () => {
   return allBlogs.map((p) => ({ slug: p.slug.split('/').map((name) => decodeURI(name)) }))
